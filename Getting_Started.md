@@ -3,6 +3,7 @@
 **generate basic rails**
 ```
 rails new .
+bundle install
 ```
 
 **gem install mysql2**
