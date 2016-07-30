@@ -47,7 +47,15 @@ e.g.
 `rails generate migration add_nickname`
 it will generate a file look like `db/migrate/20160730144441_add_nickname.rb`
 
+**rollback**
+`rake db:rollback STEP=1`
+or
+`RAILS_ENV=production rake db:rollback STEP=1`
+
+if you did add nickname column operation, then it will remove nickname column.
 
 ### reference
 [Migrations](http://guides.rubyonrails.org/v3.2/migrations.html)
 [active record migrations](http://edgeguides.rubyonrails.org/active_record_migrations.html)
+[Ruby on Rails 實戰聖經](https://ihower.tw/rails4/)
+[Active Record - 資料庫遷移](https://ihower.tw/rails4/migrations.html)
