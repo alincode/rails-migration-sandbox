@@ -1,20 +1,24 @@
 # Steps
 
 **generate basic rails**
+
 ```
 rails new .
 bundle install
 ```
 
 **gem install mysql2**
+
 ```
 gem install mysql2
 ```
 
 **set up database config**
+
 `cp config/database.yml.example config/database.yml`
 
 **generate default db schema**
+
 `rake db:migrate`
 
 it will update `db/schema.rb` file.
@@ -42,6 +46,7 @@ The data look like this format.
 ```
 
 **generate migration file**
+
 `rails generate migration migration_script_file_name`
 
 e.g.
@@ -49,8 +54,11 @@ e.g.
 it will generate a file look like `db/migrate/20160730144441_add_nickname.rb`
 
 **rollback**
+
 `rake db:rollback STEP=1`
+
 or
+
 `RAILS_ENV=production rake db:rollback STEP=1`
 
 if you did add nickname column operation, then it will remove nickname column.
