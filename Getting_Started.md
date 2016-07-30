@@ -1,4 +1,4 @@
-# Steps
+# Getting Started
 
 **generate basic rails**
 
