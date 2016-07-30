@@ -56,7 +56,7 @@ or
 if you did add nickname column operation, then it will remove nickname column.
 
 ### reference
-[Migrations](http://guides.rubyonrails.org/v3.2/migrations.html)
-[active record migrations](http://edgeguides.rubyonrails.org/active_record_migrations.html)
-[Ruby on Rails 實戰聖經](https://ihower.tw/rails4/)
-[Active Record - 資料庫遷移](https://ihower.tw/rails4/migrations.html)
+* [Migrations](http://guides.rubyonrails.org/v3.2/migrations.html)
+* [active record migrations](http://edgeguides.rubyonrails.org/active_record_migrations.html)
+* [Ruby on Rails 實戰聖經](https://ihower.tw/rails4/)
+* [Active Record - 資料庫遷移](https://ihower.tw/rails4/migrations.html)
