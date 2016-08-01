@@ -25,7 +25,7 @@ gem install mysql2
 
 it will update `db/schema.rb` file.
 
-there are have two new table in the database.
+there are two new table in the database.
 `ar_internal_metadata` and `schema_migrations`
 
 ```
